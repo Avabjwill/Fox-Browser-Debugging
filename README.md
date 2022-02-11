@@ -3,19 +3,19 @@ This document describes how to debug your Fox Mobile Browser Experience.
 
 ## TABLE OF CONTENTS
 
-- [Connecting to your device](##connecting-to-your-device)
-- [Use bmgr to Initiate Backup and Restore Operations](#use-bgmr-to-initiate-backup-and-restore-operation)
-- [Enable Wi-Fi Debugging](#enable-wifi-debugging)
+- [Connecting to your device](###connecting-to-your-device)
+- [Use bmgr to Initiate Backup and Restore Operations](###use-bgmr-to-initiate-backup-and-restore-operation)
+- [Enable Wi-Fi Debugging](###enable-wifi-debugging)
 
 # Debug Your Browser Content
 
-## Connecting to Your Device
+### Connecting to Your Device
 
 Before debugging you must connect to your device through Wifi.
 
 To test and debug your Fox Browser content you must use Fox Developer Hub, which has tools to setup your device.
 
-## Use bmgr to Initiate Backup and Restore Operations
+### Use bmgr to Initiate Backup and Restore Operations
 Use bmgr to initiate backup and restore operations from your PC unto your browser. During a backup operation, the service queries your app for backup data then archives the data. During a restore operation, the backup manager service retrieves the backup data and restores the data to the device.
 
 To do that, run the following command: 
@@ -24,7 +24,7 @@ To do that, run the following command:
 adb shell bmgr list 
 ```
 
-## Enable Wi-Fi Debugging
+### Enable Wi-Fi Debugging
 
 To set up Wi-Fi debugging:
 
