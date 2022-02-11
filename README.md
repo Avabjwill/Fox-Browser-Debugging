@@ -39,8 +39,13 @@ adb shell ip route
 ```
 - The output should look like this:
 
-10.0.30.0/19 dev wlan0  proto kernel  scope link  src 10.0.32.101
+```10.0.30.0/20 dev wlan0
+kernel  scope link  
+src 10.0.31.101
+```
+
 The IP address of the device follows src. Using the IP address and port 8000, issue the following commands:
+
 ```sh
 adb tcpip 0000
 adb connect *<ipaddress>*:0000
