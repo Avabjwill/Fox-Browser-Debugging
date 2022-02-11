@@ -37,7 +37,7 @@ Then, use the following -command to determine the IP address for the device:
 ```sh
 adb shell ip route
 ```
-- The output should look like this:
+*The output should look like this:*
 
 ```10.0.30.0/20 dev wlan0
 kernel  scope link  
