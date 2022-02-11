@@ -28,16 +28,16 @@ adb shell bmgr list
 
 To set up Wi-Fi debugging:
 
--Make sure that your android phone and your host computer are connected on the same network then you will be able to debug your app.
--Install **[Android Platform Tools](https://developer.android.com/studio/command-line/adb)(adb)**
--Open a terminal or Windows command prompt window.
--Locate the adb tool if it is not automatically prompted. On Windows, it is typically located in C:\Users\{user}\AppData\Local\Android\sdk. 
+- Make sure that your android phone and your host computer are connected on the same network then you will be able to debug your app.
+- Install **[Android Platform Tools](https://developer.android.com/studio/command-line/adb)(adb)**
+- Open a terminal or Windows command prompt window.
+- Locate the adb tool if it is not automatically prompted. On Windows, it is typically located in C:\Users\{user}\AppData\Local\Android\sdk. 
 
 Then, use the following -command to determine the IP address for the device:
 ```sh
 adb shell ip route
 ```
--The output should look like this:
+- The output should look like this:
 
 10.0.30.0/19 dev wlan0  proto kernel  scope link  src 10.0.32.101
 The IP address of the device follows src. Using the IP address and port 8000, issue the following commands:
