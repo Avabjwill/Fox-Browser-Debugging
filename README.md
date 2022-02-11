@@ -42,8 +42,7 @@ adb shell ip route
 
 ```10.0.30.0/20 dev wlan0
 kernel  scope link  
-src 10.0.31.101
-```
+src 10.0.31.101```
 
 The IP address of the device follows src. Using the IP address and port 8000, issue the following commands:
 
@@ -61,5 +60,5 @@ adb disconnect
 ```
 
 The information on this page is applicable for debugging Fox Mobile Browser.
-  
- ###### This is Proprietory Information that is Protected by EULA agreement
+
+###### This is Proprietory Information that is Protected by EULA agreement
