@@ -54,4 +54,4 @@ adb disconnect
 
 The information on this page is applicable for debugging Fox Mobile Browser.
   
- ### This is proprietory information and is Protected by a EULA agreement
+ ###### This is proprietory information and is Protected by a EULA agreement
