@@ -56,7 +56,7 @@ The android device can now be disconnected from the USB port.
 
 To stop using the Wi-Fi connection, issue the following ADB command from the OS shell:
  
-``` sh 
+``` sh
 adb disconnect
 ```
 
