@@ -18,7 +18,8 @@ To test and debug your Fox Browser content you must use Fox Developer Hub, which
 ### Use bmgr to Initiate Backup and Restore Operations
 Use bmgr to initiate backup and restore operations from your PC unto your browser. During a backup operation, the service queries your app for backup data then archives the data. During a restore operation, the backup manager service retrieves the backup data and restores the data to the device.
 
-To do that, run the following command: 
+To do that,
+- open a terminal or Windows command prompt window and run the following command: 
 
 ```sh
 adb shell bmgr list 
@@ -28,7 +29,7 @@ adb shell bmgr list
 
 To set up Wi-Fi debugging:
 
-- Make sure that your android phone and your host computer are connected on the same network then you will be able to debug your app.
+- Make sure that your android device and your host computer are connected on the same network then you will be able to debug your browser.
 - Install **[Android Platform Tools](https://developer.android.com/studio/command-line/adb)(adb)**
 - Open a terminal or Windows command prompt window.
 - Locate the adb tool if it is not automatically prompted. On Windows, it is typically located in C:\Users\{user}\AppData\Local\Android\sdk. 
